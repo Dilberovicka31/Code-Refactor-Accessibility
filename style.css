@@ -1,0 +1,153 @@
+/* account for any border and padding in the values specified for an element's width and height*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color of body element light grey*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* added padding around, set font style, background color blue, text to be white color*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* In combination with 'float' and 'position', determines the type of box or boxes that are generated for an element. set the font size*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* color of "seo" part to be light grey*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*padding at the top of nav bar, margin to the right and floated the content to be on the right side inline start margin of an element,*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-inline-start: 5px;
+    
+}
+
+/*remove the markers/bullets*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*set a width and height on the element with margin on the left 25px*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/*font size for the paragraph*/
+p {
+    font-size: 16px;
+}
+
+/* size, backgroung img color and positioned it to the center of the presentatonal img*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*margin to the right side, padding on all sides, clear any previous float commands to the box and floar it to the right*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* sets the bottom margin of an element, set color*/
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets the bottom margin of an element and text centered*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Image to be displayed as block with margin, set the maximum width of img element to 150 pixels */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Margin bottom, padding around, height, font size  changed*/
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* max height of an img */
+.content img {
+    max-height: 200px;
+}
+
+/* font size changed and added margin to the bottom */
+.content h2  {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*padding added on all sides, cleared earlier applied float elements and centered the text*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
